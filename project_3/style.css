@@ -1,0 +1,165 @@
+/* navigation bar */
+
+body{
+    display: contents;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.navbar{
+    /* float:right; */
+    display: flex;
+    justify-content: flex-end; /*flex 사용후 content오른쪽끝에 놓기*/
+    margin: 10px;
+    align-items: center; 
+    /*items를 중간에 놓기 참고 https://letsgojieun.tistory.com/49*/
+
+    /* justify -content ( 가로축 - 중심축 )align-items ( 세로축 - 교차축 )
+출처: https://ipex.tistory.com/entry/CSS3-flex-Box-justifycontent-alignitems [깍돌이:티스토리] */
+}
+
+
+.nav-item{
+    text-decoration: none;
+    color:#4f5256;
+    margin: 10px;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.navbar i{
+    color: #4f5256;
+}
+
+/* 로그인 버튼 */
+.button{
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #1a73e8;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+
+.nav-item2 {
+    display: flex;
+    margin-right: 15px; 
+    /* 오른쪽에 15px 간격 추가 */
+}
+
+
+.main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.input-area{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.input-box{
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.search-icon{
+    position:relative;
+    left: 40px;
+    color: #9aa0a6;
+}
+
+.mic-icon{
+    position: relative;
+    right: 70px;
+    color: #9aa0a6;
+    padding: 5px;
+}
+
+.button-area{
+    padding-top: 18px;
+}
+
+.button-style{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Apple SD Gothic Neo, arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.google-lang-area{
+    margin-top: 10px;
+}
+
+
+.google-language{
+    padding: 0 3px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.google-language:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
+    width: 100%;
+}
+
+.first-line{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: v#202124;
+    display: flex;
+}
+
+.second-line{
+    padding: 15px 30px;
+    font-size: 14px;
+    color: v#202124;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* flex 를 사용함에 따라 필요없게 되었음  */
+/* .scond-line-second{
+    float: right;
+    
+} */
+
+.second-line a{
+    text-decoration: none;
+    color: #202124;
+    padding-right: 15px;
+    
+}
+
+.second-line a:hover{
+    text-decoration: underline;
+}
