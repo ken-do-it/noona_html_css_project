@@ -1,0 +1,204 @@
+
+/* 공동 */
+.question{
+    font-size: larger;
+    font-weight: bolder;
+    margin: 15px 0px;
+}
+
+.black-box{
+    background-color: black;
+    width: 100px;
+    height:100px;
+    color: white;
+    font-size: 25px;
+    border: 2px solid green;
+}
+
+
+/* 문제 1 */
+.main-1{
+    display: flex;
+    border:1px solid red;  
+    justify-content: space-between; 
+}
+
+.sub-main-1{
+    display: flex;
+}
+
+
+
+
+/* 문제 2 */
+.main-2{
+    display: flex;
+    border:1px solid red;  
+    justify-content: space-between; 
+    flex-direction: column;
+}
+
+.box-2-2{
+    align-self: center;
+}
+
+.box-2-3{
+    align-self: flex-end;
+}
+
+
+
+/* 문제 3 */
+
+.main-3{
+    display: flex;
+    border:1px solid red;  
+    justify-content: center;
+}
+
+.box-3-1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+
+
+.box-3-2{
+    align-self: center;
+}
+
+
+/* 문제 4 */
+.main-4{
+    border:1px solid red;   
+
+}
+
+.box-4-2{
+    position: relative;
+    background-color: gray;
+    top: -50px;
+    left: 30px;
+
+}
+
+
+/* 문제 5 */
+.main-5{
+    border:1px solid red;  
+}
+
+.box-5-1{
+    position: absolute;
+    right: 0;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    
+    
+}
+
+.box-5-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box-5-3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+    /* position: absolute 가 잘 이해가 안된다 
+    문제 2번에서 main-2 에 position: absolute 하면 4번 문제 position: relative 가  2번 메인을 기준으로 움직이는데 
+    5번 문제에 position: absolute는 안따라가고 제자리 인 반면 
+    
+    4번 메인을 position :absolute를 하면  5번 문제 position: absolute 는 4번 position 기준으로 욺직인다.....*/
+
+/*
+    문제 2
+.main-2{
+    display: flex;
+    border:1px solid red;  
+    justify-content: space-between; 
+    flex-direction: column;
+}
+
+.box-2-2{
+    align-self: center;
+}
+
+.box-2-3{
+    align-self: flex-end;
+}
+
+
+
+/* 문제 3 */
+/*
+.main-3{
+    display: flex;
+    border:1px solid red;  
+    justify-content: center;
+}
+
+.box-3-1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+
+
+.box-3-2{
+    align-self: center;
+}
+
+
+/* 문제 4 *//*
+.main-4{
+    position: absolute; 를 하면 box-4-2이 내가 원하는데로 겹쳐지는데 문제는 5번도 따라올라온다
+    border:1px solid red;   
+
+}
+
+.box-4-2{
+    position: relative;
+    background-color: gray;
+    top: -50px;
+    left: 30px;
+
+}
+
+
+/* 문제 5 *//*
+.main-5{
+    border:1px solid red;  
+}
+
+.box-5-1{
+    position: absolute;
+    right: 0;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    
+    
+}
+
+.box-5-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box-5-3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+*/
