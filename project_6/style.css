@@ -1,0 +1,176 @@
+
+.body{
+    margin: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+/* navigation */
+.nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-img{
+    width: 150px;
+}
+
+.nav-items{
+    padding: 28px 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* main */
+.main{
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headline{
+    font-size: 146px;
+    line-height: 166px;
+    color: #1ed760;
+    font-weight: 900;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+}
+
+.headline-first{
+    position: relative;
+    left: -2.5em;
+}
+
+
+.second-headline{
+    color: #1ed760;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.button-area{
+    text-align: center;
+}
+
+.button-style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+.footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-first-line{
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
+.footer-first-line-items{ 
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.footer-first-box{ 
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-con{ 
+    display: flex;
+    flex-direction: column; 
+    /* padding: 0 15px; */
+}
+
+.menu{
+    color: #919496;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* margin: 20px 0px; */
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.footer-second-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.social-icon{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 30px;
+    font-weight: 400px;
+    color: white;
+}
+
+.second-line{
+    color: #919496;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.third-line{
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+
+.third-line-item{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
