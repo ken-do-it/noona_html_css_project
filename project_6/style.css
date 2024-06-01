@@ -79,6 +79,11 @@
     border: none;
 }
 
+.button-style:hover{
+    transform: scale(1.07);
+    background-color: #2de26d;
+}
+
 .footer{
     height: 530px;
     background-color: black;
@@ -131,7 +136,6 @@
 }
 
 
-
 .footer-second-box{
     display: flex;
     justify-content: space-around;
@@ -155,6 +159,11 @@
     color: white;
 }
 
+.icon:hover{
+    transform: scale(1.07);
+    color: #1ed760;
+}
+
 .second-line{
     color: #919496;
     display: flex;
@@ -173,4 +182,10 @@
     display: flex;
     justify-content: space-around;
     width: 900px;
+}
+
+
+a:hover{
+    transform: scale(1.07);
+    color: #1ed760;
 }
