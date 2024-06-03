@@ -1,0 +1,27 @@
+.test {
+    border: 3px solid red;
+}
+
+.just-row {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+
+.first-body-tx-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-img {
+    align-self: center;
+    padding-left: 20px;
+    color: black;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.big-img:hover {
+    padding-left: 40px;
+    transform: scale(2);
+}
