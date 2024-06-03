@@ -14,14 +14,3 @@
     align-items: center;
 }
 
-.big-img {
-    align-self: center;
-    padding-left: 20px;
-    color: black;
-    font-size: xx-large;
-    text-decoration: none;
-}
-.big-img:hover {
-    padding-left: 40px;
-    transform: scale(2);
-}
