@@ -1,5 +1,5 @@
-.test {
-    border: 3px solid red;
+.logo {
+    padding-right: 15px;
 }
 
 .just-row {
@@ -12,5 +12,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+
+.nav-hidden{
+    display: block;
+}
+
+.hidden {
+    display: none;
+    /* visibility: hidden; */
+}
+
+@media screen and (max-width: 48rem) {
+    .nav-hidden{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 48rem) {
+    .hidden {
+        display: block;
+    }
+    
 }
 
