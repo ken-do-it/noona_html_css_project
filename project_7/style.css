@@ -17,7 +17,6 @@
 .just-row {
     display: flex;
     justify-content: space-around;
-    /* flex-direction: row; */
 }
 
 .first-body-tx-line {
@@ -33,9 +32,7 @@
 }
 
 .hidden {
-    color: black;
     display: none;
-    /* visibility: hidden; */
 }
 
 
@@ -70,11 +67,6 @@
 }
 
 
-/* .footer-content h5, .footer-content ul, .footer-content p {
-    color: white; 
-} */
-
-
 .footer-items {
     display: flex;
     justify-content: space-around;
@@ -83,9 +75,7 @@
 .nav-link:hover {
     border-radius: 10px;
     background-color: gray;
-    color: white; /* Optional: Change text color for better contrast */
 }
-
 
 
 
@@ -94,10 +84,7 @@
     color: #495057;
 }
 
-/* .fotter-list a {
-    background-color: blue;
-    color: red;
-} */
+
 @media screen and (max-width: 48rem) {
     .nav-hidden{
         display: none;
@@ -110,10 +97,7 @@
     .nav-link:hover {
         border-radius: 10px;
         background-color: gray;
-        color: white; /* Optional: Change text color for better contrast */
     }
-    
-    
 }
 
 @media screen and (max-width: 48rem) {
